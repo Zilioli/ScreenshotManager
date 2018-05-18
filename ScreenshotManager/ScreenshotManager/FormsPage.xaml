@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScreenshotManager.FormsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="Opa 1" FontSize="Large" TextColor="Teal"/>
+            <Label Grid.Row="1" Text="Opa 2" FontSize="Large" TextColor="Red"/>
+            <Label Grid.Row="2" Text="Opa 3" FontSize="Large" TextColor="ForestGreen"/>
+            <Label Grid.Row="3" Text="Opa 4" FontSize="Large" TextColor="CadetBlue"/>
+            <Label Grid.Row="4" Text="Opa 5" FontSize="Large" TextColor="OrangeRed"/>
+            <Label Grid.Row="5" Text="Opa 6" FontSize="Large" TextColor="PaleTurquoise"/>
+            <Label Grid.Row="6" Text="Opa 7" FontSize="Large" TextColor="Tomato"/>
+            <Label Grid.Row="7" Text="Opa 8" FontSize="Large" TextColor="Tomato"/>
+            <Label Grid.Row="8" Text="Opa 9" FontSize="Large" TextColor="Tomato"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

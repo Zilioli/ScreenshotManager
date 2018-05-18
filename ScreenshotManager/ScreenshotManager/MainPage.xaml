@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ScreenshotManager"
+             xmlns:customControls ="clr-namespace:ScreenshotManager.Control"
+             x:Class="ScreenshotManager.MainPage">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Compartilhar Imagem"/>
+        <customControls:ShareButton Grid.Row="1" x:Name="SaveButton" Text="Comaprtilhar" TextColor="White" BackgroundColor="Teal"/>
+        
+    </Grid>
+
+</ContentPage>
